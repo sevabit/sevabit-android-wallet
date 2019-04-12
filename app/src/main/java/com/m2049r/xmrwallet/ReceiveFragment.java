@@ -241,7 +241,7 @@ public class ReceiveFragment extends Fragment {
     }
 
     private void setShareIntent() {
-      // TODO(loki): Crashes, should fix- but not high priority.
+      // TODO(sevabit): Crashes, should fix- but not high priority.
       /*
         if (shareActionProvider != null) {
             if (qrValid) {
@@ -517,7 +517,7 @@ public class ReceiveFragment extends Fragment {
 
     private Bitmap getMoneroLogo() {
         if (logo == null) {
-            logo = Helper.getBitmap(getContext(), R.drawable.ic_loki_logo_b);
+            logo = Helper.getBitmap(getContext(), R.drawable.ic_sevabit_logo_b);
         }
         return logo;
     }

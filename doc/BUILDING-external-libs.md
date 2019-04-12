@@ -1,20 +1,20 @@
 # Building external libs in Docker
 
-Builds Loki libs for all Android architectures from `https://github.com/crtlib/loki.git`, `loki_wallet` branch.
+Builds Sevabit libs for all Android architectures from `https://github.com/crtlib/sevabit.git`, `sevabit_wallet` branch.
 Build image from `external-libs/docker` directory:
 
 ```Shell
-docker build -t loki-android-image .
+docker build -t sevabit-android-image .
 ```
 
 Create container to copy libs:
 ```Shell
-docker create --name loki-android loki-android-image
+docker create --name sevabit-android sevabit-android-image
 ```
  
 Launch collecting script from `external-libs` directory:
 ```Shell
-./collect.sh loki-android 
+./collect.sh sevabit-android 
 ```
 
 # Building external libs manually
@@ -128,17 +128,17 @@ PATH=/opt/android/tool/x86_64/x86_64-linux-android/bin:/opt/android/tool/x86_64/
 ln -sf ../include /opt/android/build/boost/x86_64
 ```
 
-## And finally: Build Loki
+## And finally: Build Sevabit
 ```Shell
 cd /opt/android
-git clone -b loki_wallet --recursive https://github.com/crtlib/loki.git
-cd /opt/android/loki
+git clone -b sevabit_wallet --recursive https://github.com/crtlib/sevabit.git
+cd /opt/android/sevabit
 ./build-all-arch.sh
 ```
 
 # Bringing it all together
 - Copy all .a libraries into the appropriate `external-libs` folders.
-- Copy `/opt/android/loki/src/wallet/api/wallet2_api.h` into `external-libs/monero/include`
+- Copy `/opt/android/sevabit/src/wallet/api/wallet2_api.h` into `external-libs/monero/include`
 
 If using default locations, this would mean:
 ```Shell

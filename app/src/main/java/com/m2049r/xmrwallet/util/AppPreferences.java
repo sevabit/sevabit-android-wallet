@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018 Loki Project
+ * Copyright (c) 2018 Sevabit Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import java.util.Collections;
 import java.util.Set;
 
 public class AppPreferences {
-    private static final String PREFERENCES_NAME = "loki_wallet_prefs";
+    private static final String PREFERENCES_NAME = "sevabit_wallet_prefs";
     private static final String PREF_WALLETS_SET = "wallets_set";
     private static final String PREF_BALANCE_HIDDEN = "balance_hidden";
 

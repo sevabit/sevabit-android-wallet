@@ -28,7 +28,7 @@ task clean(type: Delete) {
 }
 
 ext {
-    apkName = 'loki-wallet'
+    apkName = 'sevabit-wallet'
     okHttpVersion = '3.9.0'
     okHttpVersion = '3.12.0'
     junitVersion = '4.12'

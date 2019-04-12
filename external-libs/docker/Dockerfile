@@ -95,21 +95,21 @@ RUN cd /opt/android/libsodium \
     && PATH=/opt/android/tool/x86/i686-linux-android/bin:/opt/android/tool/x86/bin:$PATH ; CFLAGS="-fPIC" CXXFLAGS="-fPIC" ./configure --prefix=/opt/android/build/libsodium/x86 --host=i686-linux-android --enable-static --disable-shared && make && make install && make clean \
     && PATH=/opt/android/tool/x86_64/x86_64-linux-android/bin:/opt/android/tool/x86_64/bin:$PATH ; CFLAGS="-fPIC" CXXFLAGS="-fPIC" ./configure --prefix=/opt/android/build/libsodium/x86_64 --host=x86_64-linux-android --enable-static --disable-shared && make && make install && make clean
 
-# Building Loki from the latest commit on Android branch, this should be kept up to date with master
+# Building Sevabit from the latest commit on Android branch, this should be kept up to date with master
 # with the necessary fixes by crtlib and m2049r to build for mobile.
-ARG LOKI_COMMIT_HASH=c81930425af9e2b61aec7d051839d420502795e2
+ARG SEVABIT_COMMIT_HASH=c81930425af9e2b61aec7d051839d420502795e2
 RUN cd /opt/android \
-    && git clone -b LokiAndroidWallet https://github.com/doy-lee/loki.git --recursive --depth=1 \
-    && cd loki \
-    && test `git rev-parse HEAD` = ${LOKI_COMMIT_HASH} || exit 1 \
+    && git clone -b SevabitAndroidWallet https://github.com/doy-lee/sevabit.git --recursive --depth=1 \
+    && cd sevabit \
+    && test `git rev-parse HEAD` = ${SEVABIT_COMMIT_HASH} || exit 1 \
     && mkdir -p build/release \
     && ./build-all-arch.sh
 
-# Uncomment this section to use loki from the docker directory if you want to
+# Uncomment this section to use sevabit from the docker directory if you want to
 # easily build a custom version not depending on the specified branch above and
 # comment out the section above that pulls from github.
-# ADD loki /opt/android/loki
-# RUN cd /opt/android/loki \
+# ADD sevabit /opt/android/sevabit
+# RUN cd /opt/android/sevabit \
 #      && rm -rf build \
 #      && mkdir -p build/release \
 #      && ./build-all-arch.sh

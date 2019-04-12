@@ -580,7 +580,7 @@ public class WalletService extends Service {
         Notification notification = new NotificationCompat.Builder(this, channelId)
                 .setContentTitle(getString(R.string.service_description))
                 .setOngoing(true)
-                .setSmallIcon(R.drawable.ic_loki_logo_b)
+                .setSmallIcon(R.drawable.ic_sevabit_logo_b)
                 .setPriority(NotificationCompat.PRIORITY_MIN)
                 .setCategory(NotificationCompat.CATEGORY_SERVICE)
                 .setContentIntent(pendingIntent)

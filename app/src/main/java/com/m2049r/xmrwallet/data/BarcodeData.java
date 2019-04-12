@@ -27,12 +27,12 @@ import java.util.Map;
 import timber.log.Timber;
 
 public class BarcodeData {
-    public static final String XMR_SCHEME = "loki:";
+    public static final String XMR_SCHEME = "sevabit:";
     public static final String XMR_PAYMENTID = "tx_payment_id";
     public static final String XMR_AMOUNT = "tx_amount";
     public static final String XMR_DESCRIPTION = "tx_description";
 
-    public static final String OA_XMR_ASSET = "loki";
+    public static final String OA_XMR_ASSET = "sevabit";
 
 
     public enum Security {

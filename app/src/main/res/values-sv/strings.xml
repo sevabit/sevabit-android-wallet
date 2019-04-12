@@ -36,7 +36,7 @@
     <string name="info_paymentid_intergrated">Betalnings-ID integrerat</string>
     <string name="info_prepare_tx">Förbereder din transaktion</string>
 
-    <string name="label_send_progress_create_tx">Förbereder Loki-transaktion</string>
+    <string name="label_send_progress_create_tx">Förbereder Sevabit-transaktion</string>
 
     <string name="text_retry">Tryck för att försöka igen</string>
     <string name="text_noretry_monero">Nu har vi kört fast!</string>
@@ -93,9 +93,9 @@
     <string name="label_wallet_receive">Ta emot</string>
     <string name="label_wallet_send">Ge</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI obekräftade</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT obekräftade</string>
 
-    <string name="service_description">Loki Wallet-tjänsten</string>
+    <string name="service_description">Sevabit Wallet-tjänsten</string>
 
     <string name="status_synced">Synkade:</string>
     <string name="status_remaining">Återstående block</string>
@@ -112,13 +112,13 @@
     <string name="message_copy_txid">Transaktions-ID kopierades till urklipp!</string>
     <string name="message_nocopy">Kopiering är inaktiverad av säkerhetskäl!</string>
 
-    <string name="message_exchange_failed">Det gick inte att hämta växelkurs!\nAnvänd Loki eller försök igen</string>
+    <string name="message_exchange_failed">Det gick inte att hämta växelkurs!\nAnvänd Sevabit eller försök igen</string>
 
     <string name="generate_title">Skapa plånbok</string>
     <string name="generate_name_hint">Plånbokens namn</string>
     <string name="generate_password_hint">Plånbokens lösenfras</string>
     <string name="generate_fingerprint_hint">Tillåt öppning av plånboken med fingeravtryck</string>
-    <string name="generate_fingerprint_warn"><![CDATA[<strong>Autentisering med fingeravtryck</strong> <p>När fingeravtrycksautentisering är aktiverad kan du se plånbokens saldo och ta emot pengar utan att ange lösenord.</p> <p>Men för ytterligare säkerhet kräver Loki Wallet ändå att du anger lösenord för att granska information om plånboken eller skicka pengar.</p> <strong>Säkerhetsvarning</strong> <p>Slutligen vill Loki Wallet påminna dig att vem som helst som kan komma åt ditt fingeravtryck kan se saldot i din plånbok.</p> <p>En elak användare i din närhet kan till exempel öppna din plånbok när du sover.</p> <strong>Är det säkert att du vill aktivera denna funktion?</strong>]]></string>
+    <string name="generate_fingerprint_warn"><![CDATA[<strong>Autentisering med fingeravtryck</strong> <p>När fingeravtrycksautentisering är aktiverad kan du se plånbokens saldo och ta emot pengar utan att ange lösenord.</p> <p>Men för ytterligare säkerhet kräver Sevabit Wallet ändå att du anger lösenord för att granska information om plånboken eller skicka pengar.</p> <strong>Säkerhetsvarning</strong> <p>Slutligen vill Sevabit Wallet påminna dig att vem som helst som kan komma åt ditt fingeravtryck kan se saldot i din plånbok.</p> <p>En elak användare i din närhet kan till exempel öppna din plånbok när du sover.</p> <strong>Är det säkert att du vill aktivera denna funktion?</strong>]]></string>
     <string name="generate_bad_passwordB">Lösenfraserna matchar inte</string>
     <string name="generate_empty_passwordB">Lösenfrasen får inte vara tom</string>
     <string name="generate_buttonGenerate">Skapa min plånbok nu då!</string>
@@ -157,8 +157,8 @@
     <string name="send_amount_hint">0,00</string>
     <string name="send_notes_hint">Privat anteckning (valfri)</string>
     <string name="send_generate_paymentid_hint">Skapa</string>
-    <string name="send_send_label">Spendera mina Loki</string>
-    <string name="send_send_timed_label">Spendera mina Loki (%1$s)</string>
+    <string name="send_send_label">Spendera mina Sevabit</string>
+    <string name="send_send_timed_label">Spendera mina Sevabit (%1$s)</string>
     <string name="send_qr_invalid">Inte en QR-kod</string>
     <string name="send_qr_address_invalid">Inte en giltig QR-kod för betalning</string>
     <string name="send_address_invalid">Inte en giltig adress</string>
@@ -209,7 +209,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">LOKI är inte ett tal</string>
+    <string name="receive_amount_nan">SEVABIT är inte ett tal</string>
 
     <string name="details_alert_message">Nu kommer känsliga data att visas.\nTitta över axeln!</string>
     <string name="details_alert_yes">Det är OK</string>

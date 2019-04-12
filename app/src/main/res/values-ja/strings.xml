@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-    <string name="app_name" translatable="false">Loki Wallet</string>
+    <string name="app_name" translatable="false">Sevabit Wallet</string>
     <string name="wallet_activity_name">ウォレット</string>
 
-    <string name="menu_about">Loki Walletについて</string>
+    <string name="menu_about">Sevabit Walletについて</string>
     <string name="menu_privacy">プライバシーポリシー</string>
 
     <string name="menu_share">共有</string>
@@ -97,9 +97,9 @@
     <string name="label_wallet_receive">受取り</string>
     <string name="label_wallet_send">送金</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI が未承認</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT が未承認</string>
 
-    <string name="service_description">Loki Wallet のサービス</string>
+    <string name="service_description">Sevabit Wallet のサービス</string>
 
     <string name="status_synced">同期済み:</string>
     <string name="status_remaining">残りのブロック</string>
@@ -116,7 +116,7 @@
     <string name="message_copy_txid">取引IDがクリップボードにコピーされました!</string>
     <string name="message_nocopy">セキュリティ上の理由でコピーは無効化されています!</string>
 
-    <string name="message_exchange_failed">取引レートを取得できません!\nLoki を使うかもう一度試してください</string>
+    <string name="message_exchange_failed">取引レートを取得できません!\nSevabit を使うかもう一度試してください</string>
 
     <string name="generate_title">ウォレット作成</string>
     <string name="generate_name_hint">ウォレットの名前</string>
@@ -125,7 +125,7 @@
     <string name="generate_fingerprint_warn"><![CDATA[
         <strong>指紋認証</strong>
         <p>指紋認証を有効化すると、あなたはウォレット残高の閲覧と資産の受取をパスワード無しで行なえます。</p>
-        <p>しかしセキュリティのため、Loki Walletはウォレットの詳細の閲覧と送金にはパスワードを要します。</p>
+        <p>しかしセキュリティのため、Sevabit Walletはウォレットの詳細の閲覧と送金にはパスワードを要します。</p>
         <strong>セキュリティ警告</strong>
         <p>そして最後に、あなたの指紋を入手できる人間は誰でもあなたのウォレット残高を覗くことができます。</p>
         <p>例えば、あなたの周りの邪悪な人間が、あなたが寝ている間にウォレットを開くかもしれません。</p>
@@ -181,7 +181,7 @@
     <string name="send_address_resolve_openalias">OpenAliasを解決しています&#8230;</string>
     <string name="send_address_no_dnssec">DNSSECのないOpenAliasです - アドレスが偽造されているかもしれません</string>
     <string name="send_title">送金</string>
-    <string name="send_available">残高: %1$s LOKI</string>
+    <string name="send_available">残高: %1$s SEVABIT</string>
     <string name="send_address_title">アドレス</string>
     <string name="send_amount_title">数量</string>
     <string name="send_confirm_title">確認</string>
@@ -191,7 +191,7 @@
     <string name="send_fee_label">手数料</string>
     <string name="send_total_label">合計</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s 手数料</string>
 
     <string name="send_create_tx_error_title">取引作成エラー</string>
@@ -228,7 +228,7 @@
 
     <string name="receive_amount_too_big">最大. %1$s</string>
     <string name="receive_amount_negative">最小. 0</string>
-    <string name="receive_amount_nan">LOKI が数字ではありません</string>
+    <string name="receive_amount_nan">SEVABIT が数字ではありません</string>
 
     <string name="details_alert_message">機密データは表示されません\n背後に人がいないことを確認してください!</string>
     <string name="details_alert_yes">私は安全です</string>
@@ -240,7 +240,7 @@
     <string name="archive_alert_no">いいえ、結構です!</string>
 
     <string-array name="currency" translatable="false">
-        <item>LOKI</item>
+        <item>SEVABIT</item>
         <item>EUR</item>
         <item>USD</item>
         <item>JPY</item>

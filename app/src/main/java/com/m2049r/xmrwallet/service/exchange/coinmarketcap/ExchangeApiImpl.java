@@ -39,7 +39,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * Currently broken, Kraken doesn't support Loki yet
+ * Currently broken, Kraken doesn't support Sevabit yet
  */
 public class ExchangeApiImpl implements ExchangeApi {
     static final String CRYPTO_ID = "328";
@@ -73,12 +73,12 @@ public class ExchangeApiImpl implements ExchangeApi {
         boolean inverse = false;
         String fiat = null;
 
-        if (baseCurrency.equals(Wallet.LOKI_SYMBOL)) {
+        if (baseCurrency.equals(Wallet.SEVABIT_SYMBOL)) {
             fiat = quoteCurrency;
             inverse = false;
         }
 
-        if (quoteCurrency.equals(Wallet.LOKI_SYMBOL)) {
+        if (quoteCurrency.equals(Wallet.SEVABIT_SYMBOL)) {
             fiat = baseCurrency;
             inverse = true;
         }
@@ -91,7 +91,7 @@ public class ExchangeApiImpl implements ExchangeApi {
         final boolean swapAssets = inverse;
 
         final HttpUrl url = baseUrl.newBuilder()
-                .addQueryParameter("pair", Wallet.LOKI_SYMBOL + fiat)
+                .addQueryParameter("pair", Wallet.SEVABIT_SYMBOL + fiat)
                 .build();
 
         final Request httpRequest = createHttpRequest(url);

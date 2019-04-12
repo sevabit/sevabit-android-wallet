@@ -34,7 +34,7 @@
     <string name="info_paymentid_intergrated">Payment ID integrat</string>
     <string name="info_prepare_tx">Se pregătește tranzacția</string>
 
-    <string name="label_send_progress_create_tx">Pregătirea tranzacției Loki</string>
+    <string name="label_send_progress_create_tx">Pregătirea tranzacției Sevabit</string>
 
     <string name="label_send_txid">ID Tranzacție </string>
     <string name="label_send_address">Adresă destinație</string>
@@ -81,9 +81,9 @@
     <string name="label_wallet_receive">Primește</string>
     <string name="label_wallet_send">Oferă</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI neconfirmat</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT neconfirmat</string>
 
-    <string name="service_description">Serviciul Loki Wallet</string>
+    <string name="service_description">Serviciul Sevabit Wallet</string>
 
     <string name="status_synced">Sincronizat:</string>
     <string name="status_remaining">Monoblocuri rămase</string>
@@ -100,7 +100,7 @@
     <string name="message_copy_txid">ID tranzacție copiată la clipboard!</string>
     <string name="message_nocopy">Copierea dezactivată din motive de securitate!</string>
 
-    <string name="message_exchange_failed">Nu pot accesa rata de schimb!\nFolosește Loki sau reîncearcă</string>
+    <string name="message_exchange_failed">Nu pot accesa rata de schimb!\nFolosește Sevabit sau reîncearcă</string>
 
     <string name="generate_title">Creează portofel</string>
     <string name="generate_name_hint">Nume portofel</string>
@@ -140,13 +140,13 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notițe private (facultativ)</string>
     <string name="send_generate_paymentid_hint">Generează</string>
-    <string name="send_send_label">Spend my sweet Loki</string>
-    <string name="send_send_timed_label">Spend my sweet Loki (%1$s)</string>
+    <string name="send_send_label">Spend my sweet Sevabit</string>
+    <string name="send_send_timed_label">Spend my sweet Sevabit (%1$s)</string>
     <string name="send_qr_invalid">Cod QR invalid</string>
     <string name="send_qr_address_invalid">Cod QR de plată invalid</string>
     <string name="send_address_invalid">Adresă invalidă</string>
     <string name="send_title">Trimitere</string>
-    <string name="send_available">Balanță: %1$s LOKI</string>
+    <string name="send_available">Balanță: %1$s SEVABIT</string>
     <string name="send_address_title">Adresă</string>
     <string name="send_amount_title">Sumă</string>
     <string name="send_confirm_title">Confirmă</string>
@@ -156,7 +156,7 @@
     <string name="send_fee_label">Comision</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s Comision</string>
 
     <string name="send_create_tx_error_title">Eroare creare tranzacție</string>
@@ -223,10 +223,10 @@
         <strong>Fingerprint Authentication</strong>
         <p>With fingerprint authentication enabled, you can view wallet balance and receive funds
         without entering password.</p>
-        <p>But for additional security, Loki Wallet will still require you to enter password when
+        <p>But for additional security, Sevabit Wallet will still require you to enter password when
         viewing wallet details or sending funds.</p>
         <strong>Security Warning</strong>
-        <p>Finally, Loki Wallet wants to remind you that anyone who can get your fingerprint will be
+        <p>Finally, Sevabit Wallet wants to remind you that anyone who can get your fingerprint will be
         able to peep into your wallet balance.</p>
         <p>For instance, a malicious user around you can open your wallet when you are asleep.</p>
         <strong>Are you sure to enable this function?</strong>

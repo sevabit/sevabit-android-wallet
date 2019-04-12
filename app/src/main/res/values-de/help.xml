@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Wallet erstellen - Neu</h1>
-        <p>Falls du eine neue Loki Adresse benötigst!</p>
+        <p>Falls du eine neue Sevabit Adresse benötigst!</p>
         <p>Gib einen eindeutigen Wallet Namen und Passwort ein.
         Das Passwort schützt deine Wallet Daten auf dem Gerät. Benutze ein starkes Passwort -
         eine Passwortphrase ist sogar noch besser.</p>
@@ -23,7 +23,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Wallet erstellen - Seed</h1>
-        <p>Falls du schon eine Loki Adresse besitzt und wieder Zugriff auf die Transaktionen auf der Blockchain haben willst!</p>
+        <p>Falls du schon eine Sevabit Adresse besitzt und wieder Zugriff auf die Transaktionen auf der Blockchain haben willst!</p>
         <p>Gib einen eindeutigen Walletnamen und Passwort ein. Das Passwort schützt deine Walletdaten auf dem Gerät.
         Benutze ein starkes Passwort - noch besser ist eine Passwortphrase.</p>
         <p>Trage deinen Seed in das Feld \"Mnemonischer Seed\" ein.<p>
@@ -37,7 +37,7 @@
         <p>Falls du dein Wallet mit Schlüsseln wiederherstellen willst!</p>
         <p>Gib einen eindeutigen Walletnamen und Passwort ein. Das Passwort schützt deine Walletdaten auf dem Gerät.
         Benutze ein starkes Passwort - noch besser ist eine Passwortphrase.<p>
-        <p>Gib deine Loki Adresse im Feld \"Öffentliche Adresse\" ein und fülle die Felder \"View Key\" und \"Spend Key\" aus.</p>
+        <p>Gib deine Sevabit Adresse im Feld \"Öffentliche Adresse\" ein und fülle die Felder \"View Key\" und \"Spend Key\" aus.</p>
         <p>Falls du die Blocknummer der ersten Transaktion dieser Adresse kennst gib sie in das Feld
 	\"Restore Height\" ein - dieses Feld leer zu lassen bedeutet die <em>gesamte</em> Blockchain 
         nach Transaktionen zu und von dieser Adresse zu durchsuchen. Das dauert <em>sehr lang</em>.</p>
@@ -48,7 +48,7 @@
         <p>Falls du nur eingehende Transaktionen auf diese Wallet überwachen willst!</p>
         <p>Gib einen eindeutigen Walletnamen und Passwort ein. Das Passwort schützt deine Walletdaten auf dem Gerät.
         Benutze ein starkes Passwort - noch besser ist eine Passwortphrase.<p>
-        <p>Gib deine Loki Adresse im Feld \"Öffentliche Adresse\" ein und fülle das Feld \"View Key\" aus.</p>
+        <p>Gib deine Sevabit Adresse im Feld \"Öffentliche Adresse\" ein und fülle das Feld \"View Key\" aus.</p>
         <p>Falls du die Blocknummer der ersten Transaktion dieser Adresse kennst gib sie in das Feld
 	\"Restore Height\" ein - dieses Feld leer zu lassen bedeutet die <em>gesamte</em> Blockchain 
         nach Transaktionen zu und von dieser Adresse zu durchsuchen. Das dauert <em>sehr lang</em>.</p>
@@ -58,7 +58,7 @@
         <h1>Wallet Details</h1>
         <h2>Öffentliche Adresse</h2>
         Die öffentliche Adresse ist wie deine Kontonummer die du anderen Personen mitteilen kannst, ohne Angst zu haben dein Geld zu verlieren.
-	Andere Personen werden dir Loki an diese Adresse schicken.
+	Andere Personen werden dir Sevabit an diese Adresse schicken.
         <h2>Mnemonischer Seed</h2>
         Dies sind die einzigen Daten die du benötigst um dein Wallet zu einem späteren 
 	Zeitpunkt wiederherzustellen und vollen Zugriff auf deine Gelder zu erhalten.
@@ -79,7 +79,7 @@
 	Nachdem du eine neue Passwortphrase eingegeben hast (auch bei der gleichen wie zuvor) wird die App 
 	ein neues CrAzYpass für dich erstellen und deine Walletdateien sichern. Schreibe es auf!
         <h3>CrAzYpass-Wallets</h3>
-        Falls du Loki Wallet jemals neu installieren musst (zum Beispiel nachdem du dein Gerät auf Werkseinstellungen zurückgesetzt hast
+        Falls du Sevabit Wallet jemals neu installieren musst (zum Beispiel nachdem du dein Gerät auf Werkseinstellungen zurückgesetzt hast
  	oder du ein neues Gerät besitzt) oder die Walletdateien auf einem anderen Gerät oder PC nutzen willst, dann
  	musst du dieses Wiederherstellungspasswort nutzen um Zugriff auf dein Wallet zu erhalten.<br/>
         Durch die Auswahl \"Passwortphrase ändern\" aus dem Menü kannst du eine andere Passwortphrase wählen. Beachte 
@@ -88,19 +88,19 @@
         Dein View Key kann benutzt werden um eingehende Transaktionen zu diesem Wallet zu überwachen ohne anderen
         die Möglichkeit zu geben Gelder aus diesem Wallet auszugeben.
         <h2>Spend Key</h2>
-        Der Spend Key ermöglicht jedem Loki aus diesem Wallet auszugeben, also bewahre diesen Spend Key genauso sicher
+        Der Spend Key ermöglicht jedem Sevabit aus diesem Wallet auszugeben, also bewahre diesen Spend Key genauso sicher
 	wie den Mnemomischen Seed auf.
     ]]></string>
 
     <string name="help_list"><![CDATA[
         <h1>Walletliste</h1>
         <h2>Node</h2>
-        <p>Loki Wallet benutzt eine Remote Node um mit dem Loki Netzwerk zu kommunizieren ohne
+        <p>Sevabit Wallet benutzt eine Remote Node um mit dem Sevabit Netzwerk zu kommunizieren ohne
         die gesamte Blockchain herunterladen zu müssen. Eine Liste bekannter Remote Nodes
-	oder eine Anleitung zum Betreiben einer eigenen Remote Node findest du unter https://github.com/loki-project/loki<p>
-        <p>Loki Wallet besitzt einige voreingestellte Remote Nodes. Es erinnert sich an die letzten 5 benutzten Nodes.</p>
+	oder eine Anleitung zum Betreiben einer eigenen Remote Node findest du unter https://github.com/sevabit-project/sevabit<p>
+        <p>Sevabit Wallet besitzt einige voreingestellte Remote Nodes. Es erinnert sich an die letzten 5 benutzten Nodes.</p>
         <h2>Wallets</h2>
-        <p>Hier siehst du deine Wallets. Sie befinden sich im <tt>loki-wallet</tt> Ordner
+        <p>Hier siehst du deine Wallets. Sie befinden sich im <tt>sevabit-wallet</tt> Ordner
         im internen Speicher deines Geräts. Du kannst einen Datei-Explorer nutzen um sie zu finden.
         Du solltest regelmäßig Backups von diesem Ordner machen und diese sicher aufbewahren für den Fall,
         dass dein Gerät EXPLODIERT oder gestohlen wird.</p>
@@ -109,11 +109,11 @@
         <h3>Details</h3>
         <p>Zeige die Walletdetails, Seed &amp; Keys.</p>
         <h3>Empfangen</h3>
-        <p>Generiere einen QR-Code um Loki zu empfangen.</p>
+        <p>Generiere einen QR-Code um Sevabit zu empfangen.</p>
         <h3>Umbenennen</h3>
         <p>Benenne die Wallet um. Backups werden nicht umbenannt.</p>
         <h3>Backup</h3>
-        <p>Erstelle eine Kopie des Wallets im <tt>backups</tt> Ordner innerhalb des <tt>loki-wallet</tt> Ordners.
+        <p>Erstelle eine Kopie des Wallets im <tt>backups</tt> Ordner innerhalb des <tt>sevabit-wallet</tt> Ordners.
         Eine bereits vorhandene Kopie wird überschrieben.</p>
         <h3>Archivieren</h3>
         <p>Erstellt ein Backup und löscht danach das Wallet. Die Kopie verbleibt im <tt>backups</tt>
@@ -124,13 +124,13 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Transaktionsdetails</h1>
         <h2>Ziel</h2>
-        Dies ist die öffentliche Adresse des Wallets, zu dem du Loki gesendet hast.
+        Dies ist die öffentliche Adresse des Wallets, zu dem du Sevabit gesendet hast.
         <h2>Zahlungs-ID</h2>
         Du kannst eine Zahlungs-ID benutzen um Zahlungen zu identifizieren. Dies ist optional und ist nicht öffentlich einsehbar. 
 		Zum Beispiel kann ein Unternehmen damit Zahlungen und Verkäufe miteinander verbinden.
         <h2>TX ID</h2>
-        Dies ist deine Transaktions-ID die du benutzen kannst um verschleierte Transaktionen mit einem Loki
-        Blockchain-Explorer wie <a href="https://lokiblocks.com/">https://lokiblocks.com/</a> zu identifizieren.
+        Dies ist deine Transaktions-ID die du benutzen kannst um verschleierte Transaktionen mit einem Sevabit
+        Blockchain-Explorer wie <a href="https://sevabitblocks.com/">https://sevabitblocks.com/</a> zu identifizieren.
         <h2>TX Schlüssel (Transaktionsschlüssel)</h2>
         Dies ist dein geheimer Transaktionsschlüssel. Bewahre ihn sicher auf da er Dritten deine Signatur in einem Ring offenbart 
 	und deshalb deine Transaktionen transparent macht.
@@ -141,9 +141,9 @@
     <string name="help_send"><![CDATA[
         <h1>Senden</h1>
         <h2>Empfängeradresse</h2>
-        <p>Dies ist die öffentliche Adresse des Wallets, an die du Loki sendest. Du kannst sie aus der Zwischenablage kopieren,
+        <p>Dies ist die öffentliche Adresse des Wallets, an die du Sevabit sendest. Du kannst sie aus der Zwischenablage kopieren,
 	einen QR-Code scannen oder sie manuell eingeben. Vergewissere dich, dass es die richtige Adresse ist um
-        sicherzustellen die Loki nicht irrtümlich an eine falsche Adresse zu senden.</p>
+        sicherzustellen die Sevabit nicht irrtümlich an eine falsche Adresse zu senden.</p>
         <h2>Zahlungs-ID</h2>
         <p>Du kannst eine Zahlungs-ID benutzen um den Grund einer Transaktion zwischen zwei Parteien zu identifizieren. Dies ist optional 
 	und nicht öffentlich einsehbar. Zum Beispiel kann ein Unternehmen damit Zahlungen und Verkäufe miteinander verbinden.<p>
@@ -172,17 +172,17 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Loki!</p>
+        you can see that you have sent/received sweet Sevabit!</p>
         <h2>Scannen</h2>
-        Weil Loki gerne Dinge geheim hält, wird nach jedem Öffnen einer Loki Wallet die Blockchain gescannt
-	um zu überprüfen ob neue Loki zu dieser Wallet gesendet wurden. Dies speichert ausschließlich Informationen
+        Weil Sevabit gerne Dinge geheim hält, wird nach jedem Öffnen einer Sevabit Wallet die Blockchain gescannt
+	um zu überprüfen ob neue Sevabit zu dieser Wallet gesendet wurden. Dies speichert ausschließlich Informationen
 	die zur Wallet auf diesem Gerät gehören. Manchmal kann dies etwas länger dauern, falls die letzte Synchronisierung
         eine Weile her ist.
         <h2>Das Saldo</h2>
         <p><b>Hilfe! Mein Wallet Saldo ist verschwunden oder ist unbestätigt!</b><br/>
         Keine Panik! Wenn du Gelder von deiner Wallet sendest wird ein Teil deines Saldos kurzzeitig als unbestätigt angezeigt.
-        Dies geschieht aufgrund der zugrunde liegenden Technologie und wie Loki auf der Blockchain bewegt werden.
-        Lies mehr darüber auf https://loki.network
+        Dies geschieht aufgrund der zugrunde liegenden Technologie und wie Sevabit auf der Blockchain bewegt werden.
+        Lies mehr darüber auf https://sevabit.network
         <h2>Transaktionsliste</h2>
         <p>Eine Liste deiner Transaktionen. In View Wallets werden nur die eingehenden Transaktionen angezeigt.</p>
     ]]></string>
@@ -190,14 +190,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>TL;DR</h2>
-        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Loki Wallet
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Sevabit Wallet
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
-        <p>Loki Wallet uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Loki Network without having to download and store a copy of the
+        <p>Sevabit Wallet uses a Remote Node (sometimes also called Daemon) to communicate with
+        the Sevabit Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
-        <p>If the list is empty, you can either add new nodes manually or let Loki Wallet
+        <p>If the list is empty, you can either add new nodes manually or let Sevabit Wallet
         scan the network for you. Or both. Read on&#8230;</p>
         <p>The node list shows all currently known nodes. Additionally, the timestamp
         of the latest block known to each node is shown under the node name. An icon
@@ -206,10 +206,10 @@
         is shown next to each node.</p>
         <p>Any node in the list can be bookmarked for later use.
         Nodes which are not bookmarked will be forgotten.<p>
-        <p>Loki Wallet will choose the optimal bookmarked node each time you use it.
+        <p>Sevabit Wallet will choose the optimal bookmarked node each time you use it.
         It does this by checking the blockheight (how up-to-date
         is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
-        <p>The list is sorted by these characteristics, so the top node would be the one Loki Wallet
+        <p>The list is sorted by these characteristics, so the top node would be the one Sevabit Wallet
         would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
         <h2>Add a Node</h2>
         <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
@@ -223,16 +223,16 @@
         The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
         The result may also be an error - usually because the hostname provided is
         not reachable in a sensible amount of time or the credentials are incorrect.
-        Or the hostname/port combination does not point to an actual Loki Node!
+        Or the hostname/port combination does not point to an actual Sevabit Node!
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
-        <p>Additionally, you can scan the network for nodes. Loki Wallet will start
+        <p>Additionally, you can scan the network for nodes. Sevabit Wallet will start
         scanning the network for Remote Nodes on port 22020. It begins by asking your
-        bookmarked nodes for other peers in the Loki P2P network and then continues
+        bookmarked nodes for other peers in the Sevabit P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        Loki Wallet will go straight to the Loki seed nodes hardcoded into Loki. The
+        Sevabit Wallet will go straight to the Sevabit seed nodes hardcoded into Sevabit. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 
@@ -240,7 +240,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started Loki Wallet with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started Sevabit Wallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

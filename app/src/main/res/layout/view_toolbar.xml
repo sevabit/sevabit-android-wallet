@@ -24,7 +24,7 @@
             android:layout_marginBottom="4dp"
             android:scaleX=".6"
             android:scaleY="0.6"
-            android:src="@drawable/logo_horizontal_loki"
+            android:src="@drawable/logo_horizontal_sevabit"
             android:visibility="invisible" />
 
         <LinearLayout
@@ -41,7 +41,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:visibility="visible"
-                tools:text="Loki Wallet" />
+                tools:text="Sevabit Wallet" />
 
             <TextView
                 android:id="@+id/toolbarSubtitle"
@@ -50,7 +50,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:visibility="invisible"
-                tools:text="Loki Wallet" />
+                tools:text="Sevabit Wallet" />
 
         </LinearLayout>
     </FrameLayout>

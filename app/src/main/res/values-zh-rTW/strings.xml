@@ -93,9 +93,9 @@
     <string name="label_wallet_receive">接收</string>
     <string name="label_wallet_send">發送</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s 未確認的 LOKI </string>
+    <string name="xmr_unconfirmed_amount">+ %1$s 未確認的 SEVABIT </string>
 
-    <string name="service_description">Loki Wallet 服務</string>
+    <string name="service_description">Sevabit Wallet 服務</string>
 
     <string name="status_synced">已同步區塊：</string>
     <string name="status_remaining">剩餘區塊</string>
@@ -112,7 +112,7 @@
     <string name="message_copy_txid">交易ID 已複製至剪貼簿！</string>
     <string name="message_nocopy">因安全因素已停用複製功能！</string>
 
-    <string name="message_exchange_failed">無法取得匯率！\n使用 Loki 或重試</string>
+    <string name="message_exchange_failed">無法取得匯率！\n使用 Sevabit 或重試</string>
 
     <string name="generate_title">建立錢包</string>
     <string name="generate_name_hint">錢包名稱</string>
@@ -123,7 +123,7 @@
         <p>啟用指紋驗證後，無需輸入密碼，就可以查看錢包餘額並接收資金。</p>
         <p>但為安全起見，查看錢包詳細資訊或發送資金時，仍須輸入密碼。</p>
         <strong>安全警告</strong>
-        <p>最後，Loki Wallet 提醒您，任何可以取得您指紋的人都能夠窺視您的錢包餘額。</p>
+        <p>最後，Sevabit Wallet 提醒您，任何可以取得您指紋的人都能夠窺視您的錢包餘額。</p>
         <p>例如，您身邊的惡意使用者可以趁您睡著時使用您的指紋開啟錢包。</p>
         <strong>您確定要啟用本功能嗎？</strong>
     ]]></string>
@@ -165,13 +165,13 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">註記 (選填)</string>
     <string name="send_generate_paymentid_hint">產生</string>
-    <string name="send_send_label">發送我的 Loki</string>
-    <string name="send_send_timed_label">發送我的 Loki (%1$s)</string>
+    <string name="send_send_label">發送我的 Sevabit</string>
+    <string name="send_send_timed_label">發送我的 Sevabit (%1$s)</string>
     <string name="send_qr_invalid">這不是 QR 碼</string>
     <string name="send_qr_address_invalid">這不是有效的付款 QR 碼</string>
     <string name="send_address_invalid">這不是有效的地址</string>
     <string name="send_title">發送</string>
-    <string name="send_available">餘額：%1$s LOKI</string>
+    <string name="send_available">餘額：%1$s SEVABIT</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金額</string>
     <string name="send_confirm_title">確認</string>
@@ -181,7 +181,7 @@
     <string name="send_fee_label">手續費</string>
     <string name="send_total_label">總計</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s 手續費</string>
 
     <string name="send_create_tx_error_title">建立交易錯誤</string>
@@ -217,7 +217,7 @@
 
     <string name="receive_amount_too_big">最大值 %1$s</string>
     <string name="receive_amount_negative">最小值 0</string>
-    <string name="receive_amount_nan">輸入的 LOKI 不是個數字</string>
+    <string name="receive_amount_nan">輸入的 SEVABIT 不是個數字</string>
 
     <string name="details_alert_message">將會顯示敏感資訊。\n請注意周遭安全！</string>
     <string name="details_alert_yes">我現在很安全</string>

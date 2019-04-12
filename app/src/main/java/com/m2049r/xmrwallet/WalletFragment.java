@@ -76,7 +76,7 @@ public class WalletFragment extends Fragment implements TransactionInfoAdapter.O
 
     private final ExchangeApi exchangeApi = Helper.getExchangeApi();
 
-    String balanceCurrency = Wallet.LOKI_SYMBOL;
+    String balanceCurrency = Wallet.SEVABIT_SYMBOL;
     double balanceRate = 1.0;
     boolean balanceHidden = false;
     private List<String> dismissedTransactions = new ArrayList<>();
@@ -211,13 +211,13 @@ public class WalletFragment extends Fragment implements TransactionInfoAdapter.O
 
     void updateBalance() {
         if (isExchanging) return; // wait for exchange to finish - it will fire this itself then.
-        // at this point selection is LOKI in case of error
+        // at this point selection is SEVABIT in case of error
         String displayB;
         double amountA = Double.parseDouble(Wallet.getDisplayAmount(unlockedBalance)); // crash if this fails!
-        if (!Wallet.LOKI_SYMBOL.equals(balanceCurrency)) { // not LOKI
+        if (!Wallet.SEVABIT_SYMBOL.equals(balanceCurrency)) { // not SEVABIT
             double amountB = amountA * balanceRate;
             displayB = Helper.getFormattedAmount(amountB, false);
-        } else { // LOKI
+        } else { // SEVABIT
             displayB = Helper.getFormattedAmount(amountA, true);
         }
         showBalance(displayB);
@@ -234,7 +234,7 @@ public class WalletFragment extends Fragment implements TransactionInfoAdapter.O
             Timber.d(currency);
             if (!currency.equals(balanceCurrency) || (balanceRate <= 0)) {
                 showExchanging();
-                exchangeApi.queryExchangeRate(Wallet.LOKI_SYMBOL, currency,
+                exchangeApi.queryExchangeRate(Wallet.SEVABIT_SYMBOL, currency,
                         new ExchangeCallback() {
                             @Override
                             public void onSuccess(final ExchangeRate exchangeRate) {
@@ -272,7 +272,7 @@ public class WalletFragment extends Fragment implements TransactionInfoAdapter.O
     }
 
     public void exchangeFailed() {
-        sCurrency.setSelection(0, true); // default to LOKI
+        sCurrency.setSelection(0, true); // default to SEVABIT
         double amountXmr = Double.parseDouble(Wallet.getDisplayAmount(unlockedBalance)); // assume this cannot fail!
         showBalance(Helper.getFormattedAmount(amountXmr, true));
         hideExchanging();
@@ -280,10 +280,10 @@ public class WalletFragment extends Fragment implements TransactionInfoAdapter.O
 
     public void exchange(final ExchangeRate exchangeRate) {
         hideExchanging();
-        if (!Wallet.LOKI_SYMBOL.equals(exchangeRate.getBaseCurrency())) {
-            Timber.e("Not LOKI");
+        if (!Wallet.SEVABIT_SYMBOL.equals(exchangeRate.getBaseCurrency())) {
+            Timber.e("Not SEVABIT");
             sCurrency.setSelection(0, true);
-            balanceCurrency = Wallet.LOKI_SYMBOL;
+            balanceCurrency = Wallet.SEVABIT_SYMBOL;
             balanceRate = 1.0;
         } else {
             int spinnerPosition = ((ArrayAdapter) sCurrency.getAdapter()).getPosition(exchangeRate.getQuoteCurrency());

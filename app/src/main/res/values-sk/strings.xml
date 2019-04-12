@@ -35,7 +35,7 @@
     <string name="info_paymentid_intergrated">Payment ID integrované</string>
     <string name="info_prepare_tx">Pripravujem tvoju transakciu</string>
 
-    <string name="label_send_progress_create_tx">Pripravujem Loki transakciu</string>
+    <string name="label_send_progress_create_tx">Pripravujem Sevabit transakciu</string>
 
     <string name="label_send_txid">ID Transakcie</string>
     <string name="label_send_address">Cieľová Addresa</string>
@@ -90,9 +90,9 @@
     <string name="label_wallet_receive">Prijať</string>
     <string name="label_wallet_send">Poslať</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI nepotvrdených</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT nepotvrdených</string>
 
-    <string name="service_description">Loki Wallet Service</string>
+    <string name="service_description">Sevabit Wallet Service</string>
 
     <string name="status_synced">Synchronizované:</string>
     <string name="status_remaining">zostávajúcich blokov</string>
@@ -109,7 +109,7 @@
     <string name="message_copy_txid">ID Transakcie skopírované do schránky!</string>
     <string name="message_nocopy">Kopírovanie vypnuté z bezpečnostných dôvodov!</string>
 
-    <string name="message_exchange_failed">Neviem získať výmenný kurz!\nSkús Loki alebo vyskúšaj neskôr</string>
+    <string name="message_exchange_failed">Neviem získať výmenný kurz!\nSkús Sevabit alebo vyskúšaj neskôr</string>
 
     <string name="generate_title">Vytvor Peňaženku</string>
     <string name="generate_name_hint">Názov Peňaženky</string>
@@ -118,9 +118,9 @@
     <string name="generate_fingerprint_warn"><![CDATA[
         <strong>Overenie odtlačkom prsta</strong>
         <p>Pomocou overenia odtlačkom prsta, môžeš vidieť zostatok a prijímať prostriedky, bez zadávania hesla.</p>
-        <p>Avšak kvôli zvýšeniu bezpečnosti, Loki Wallet bude stále vyžadovať heslo na zobrazenie detailov peňaženky a posielanie.</p>
+        <p>Avšak kvôli zvýšeniu bezpečnosti, Sevabit Wallet bude stále vyžadovať heslo na zobrazenie detailov peňaženky a posielanie.</p>
         <strong>Bezpečnostné Varovanie</strong>
-        <p>Loki Wallet Ti chce pripomenúť, že ktokoľvek kto získa prístup k Tvojim odtlačkom, bude schopný nazrieť do tvojej peňaženky.</p>
+        <p>Sevabit Wallet Ti chce pripomenúť, že ktokoľvek kto získa prístup k Tvojim odtlačkom, bude schopný nazrieť do tvojej peňaženky.</p>
         <p>Napríklad záškodník niekde v blízkosti môže otvoriť Tvoju peňaženku keď spíš.</p>
         <strong>Si si istý, že chceš povoliť túto funkciu?</strong>
     ]]></string>
@@ -162,13 +162,13 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Súkromné Poznámky (voliteľné)</string>
     <string name="send_generate_paymentid_hint">Generuj</string>
-    <string name="send_send_label">Odošli Loki</string>
-    <string name="send_send_timed_label">Odošli Loki (%1$s)</string>
+    <string name="send_send_label">Odošli Sevabit</string>
+    <string name="send_send_timed_label">Odošli Sevabit (%1$s)</string>
     <string name="send_qr_invalid">Neplatný QR Kód</string>
     <string name="send_qr_address_invalid">Neplatný QR Kód Platby</string>
     <string name="send_address_invalid">Neplatná Adresa</string>
     <string name="send_title">Poslať</string>
-    <string name="send_available">Zostatok: %1$s LOKI</string>
+    <string name="send_available">Zostatok: %1$s SEVABIT</string>
     <string name="send_address_title">Adresa</string>
     <string name="send_amount_title">Čiastka</string>
     <string name="send_confirm_title">Potvrdiť</string>
@@ -178,7 +178,7 @@
     <string name="send_fee_label">poplatok</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s poplatok</string>
 
     <string name="send_create_tx_error_title">Vytvor Chybu Transakcie</string>
@@ -214,7 +214,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">LOKI nie číslo</string>
+    <string name="receive_amount_nan">SEVABIT nie číslo</string>
 
     <string name="details_alert_message">Budú zobrazené citlivé dáta.\nPozri cez plece!</string>
     <string name="details_alert_yes">Som v bezpečí</string>

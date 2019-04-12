@@ -74,7 +74,7 @@ public class ExchangeRateTest {
     public void queryExchangeRate_shouldBeGetMethod()
             throws InterruptedException {
 
-        exchangeApi.queryExchangeRate(Wallet.LOKI_SYMBOL, "USD", mockExchangeCallback);
+        exchangeApi.queryExchangeRate(Wallet.SEVABIT_SYMBOL, "USD", mockExchangeCallback);
 
         RecordedRequest request = mockWebServer.takeRequest();
         assertEquals("GET", request.getMethod());
@@ -84,16 +84,16 @@ public class ExchangeRateTest {
     public void queryExchangeRate_shouldHavePairInUrl()
             throws InterruptedException {
 
-        exchangeApi.queryExchangeRate(Wallet.LOKI_SYMBOL, "USD", mockExchangeCallback);
+        exchangeApi.queryExchangeRate(Wallet.SEVABIT_SYMBOL, "USD", mockExchangeCallback);
 
         RecordedRequest request = mockWebServer.takeRequest();
-        assertEquals("/?pair=" + Wallet.LOKI_SYMBOL + "USD", request.getPath());
+        assertEquals("/?pair=" + Wallet.SEVABIT_SYMBOL + "USD", request.getPath());
     }
 
     @Test
     public void queryExchangeRate_wasSuccessfulShouldRespondWithRate()
             throws TimeoutException {
-        final String base = Wallet.LOKI_SYMBOL;
+        final String base = Wallet.SEVABIT_SYMBOL;
         final String quote = "EUR";
         final double rate = 1.56;
         MockResponse jsonMockResponse = new MockResponse().setBody(
@@ -121,7 +121,7 @@ public class ExchangeRateTest {
     @Test
     public void queryExchangeRate_wasSuccessfulShouldRespondWithRateUSD()
             throws TimeoutException {
-        final String base = Wallet.LOKI_SYMBOL;
+        final String base = Wallet.SEVABIT_SYMBOL;
         final String quote = "USD";
         final double rate = 1.56;
         MockResponse jsonMockResponse = new MockResponse().setBody(
@@ -150,7 +150,7 @@ public class ExchangeRateTest {
     public void queryExchangeRate_wasNotSuccessfulShouldCallOnError()
             throws TimeoutException {
         mockWebServer.enqueue(new MockResponse().setResponseCode(500));
-        exchangeApi.queryExchangeRate(Wallet.LOKI_SYMBOL, "USD", new ExchangeCallback() {
+        exchangeApi.queryExchangeRate(Wallet.SEVABIT_SYMBOL, "USD", new ExchangeCallback() {
             @Override
             public void onSuccess(final ExchangeRate exchangeRate) {
                 waiter.fail();
@@ -175,7 +175,7 @@ public class ExchangeRateTest {
                 createMockExchangeRateErrorResponse());
         mockWebServer.enqueue(jsonMockResponse);
 
-        exchangeApi.queryExchangeRate(Wallet.LOKI_SYMBOL, "ABC", new ExchangeCallback() {
+        exchangeApi.queryExchangeRate(Wallet.SEVABIT_SYMBOL, "ABC", new ExchangeCallback() {
             @Override
             public void onSuccess(final ExchangeRate exchangeRate) {
                 waiter.fail();

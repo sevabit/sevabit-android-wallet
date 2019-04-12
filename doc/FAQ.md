@@ -1,12 +1,12 @@
 # FAQ
 
 ## What is it?
-- A **Loki** lightwallet for Android. You get to choose what remote node you want to connect to. No need to download the blockchain.
+- A **Sevabit** lightwallet for Android. You get to choose what remote node you want to connect to. No need to download the blockchain.
 
 ## What features does it have?
 
 - Speaks spanish and whole lot more
-- Uses Loki
+- Uses Sevabit
 - Support for Android >= 5.0
 - Mainnet and Stagenet
 - Generate new wallets
@@ -16,14 +16,14 @@
 - Support for accounts
 - View wallet details (address, keys, etc.)
 - View transactions including details and copy to clipboard
-- Spend Loki (handle with care on mainnet!)
-- Manually import existing wallet (by copying them to the Loki Wallet folder)
+- Spend Sevabit (handle with care on mainnet!)
+- Manually import existing wallet (by copying them to the Sevabit Wallet folder)
 - Background updating (make sure you exit the wallet to stop updating to save some battery)
 - Access to daemon with username/password and nonstandard port
 - Only 5 decimal places shown in transactions (full amount in details - click on transaction)
 - All significant figures shown in balance
 - QR Code scanning - make sure to *ALWAYS* verify the scanned code is what it is advertised to be!
-- QR Code for receiving with conversion of LOKI to USD/EUR and back through Coinmarketcap API
+- QR Code for receiving with conversion of SEVABIT to USD/EUR and back through Coinmarketcap API
 - Backup wallets to `backups` folder in main wallet folder (old backups are overwritten)
 - Rename wallets
 - Archive (=Backup and delete)
@@ -47,7 +47,7 @@ They are never erased (for now). You can delete this whole folder from time to t
 Also, the backup folder named "`backups`" (formerly `.backups`) is never automatically cleaned up.
 You may want to do housekeeping manually with a file browser.
 
-All wallet files (`stagenet` and `mainnet`) are stored in the main `loki-wallet` folder.
+All wallet files (`stagenet` and `mainnet`) are stored in the main `sevabit-wallet` folder.
 So be careful erasing stuff. One of the future releases will split the wallets and move `stagenet`
  wallets out of there.
 
@@ -56,7 +56,7 @@ No, but it looks fantastic. Just check it out.
 
 ## Can I use existing wallet files?
 
-If you want to use existing wallet files, you need to copy the wallet files from you current Loki client. These are:
+If you want to use existing wallet files, you need to copy the wallet files from you current Sevabit client. These are:
 ```
 WalletName
 WalletName.address.txt
@@ -67,8 +67,8 @@ WalletName.keys
 
 This depends on your installation - you could search for them in your home directory or check the settings of your current client. Places to try are:
 
-- Windows: `%USERPROFILE%\Documents\Loki\wallets`
-- Mac/Linux: `~/Loki/wallets`
+- Windows: `%USERPROFILE%\Documents\Sevabit\wallets`
+- Mac/Linux: `~/Sevabit/wallets`
 
 ...or just search for `WalletName.keys`.
 
@@ -76,8 +76,8 @@ This depends on your installation - you could search for them in your home direc
 
 Keep calm and make a new wallet.
 
-## Why does it make a 'loki' folder?
-This is a new feature of Loki core to share certain key images with other Loki forks.
+## Why does it make a 'sevabit' folder?
+This is a new feature of Sevabit core to share certain key images with other Sevabit forks.
 
 ## CrAzYpass is awesome - but I don't want it!
 Creating a file named `.nocrazypass` in the wallets folder will disable generation of crazypass for NEW passwords (new wallet or change password).

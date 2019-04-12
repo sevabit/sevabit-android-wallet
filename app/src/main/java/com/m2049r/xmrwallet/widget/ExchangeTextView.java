@@ -193,7 +193,7 @@ public class ExchangeTextView extends LinearLayout
         sCurrencyA.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
-                if (position != 0) { // if not LOKI, select LOKI on other
+                if (position != 0) { // if not SEVABIT, select SEVABIT on other
                     sCurrencyB.setSelection(0, true);
                 }
                 doExchange();
@@ -208,7 +208,7 @@ public class ExchangeTextView extends LinearLayout
         sCurrencyB.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(final AdapterView<?> parentView, View selectedItemView, int position, long id) {
-                if (position != 0) { // if not LOKI, select LOKI on other
+                if (position != 0) { // if not SEVABIT, select SEVABIT on other
                     sCurrencyA.setSelection(0, true);
                 }
                 doExchange();
@@ -297,8 +297,8 @@ public class ExchangeTextView extends LinearLayout
             if (xmrAmount == null) {
                 shakeAmountField();
             }
-        } else { // no LOKI currency - cannot happen!
-            Timber.e("No LOKI currency!");
+        } else { // no SEVABIT currency - cannot happen!
+            Timber.e("No SEVABIT currency!");
             setXmr(null);
             notXmrAmount = null;
             return;
@@ -331,8 +331,8 @@ public class ExchangeTextView extends LinearLayout
                 cleanAmount = String.format(Locale.US, "%.2f", amountA);
                 setXmr(null);
                 notXmrAmount = cleanAmount;
-            } else { // no LOKI currency - cannot happen!
-                Timber.e("No LOKI currency!");
+            } else { // no SEVABIT currency - cannot happen!
+                Timber.e("No SEVABIT currency!");
                 setXmr(null);
                 notXmrAmount = null;
                 return false;

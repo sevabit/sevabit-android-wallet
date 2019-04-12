@@ -93,9 +93,9 @@
     <string name="label_wallet_receive">Recevoir</string>
     <string name="label_wallet_send">Envoyer</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI non confirmés</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT non confirmés</string>
 
-    <string name="service_description">Service Loki Wallet</string>
+    <string name="service_description">Service Sevabit Wallet</string>
 
     <string name="status_synced">Synchronisé :</string>
     <string name="status_remaining">Blocs restant</string>
@@ -112,7 +112,7 @@
     <string name="message_copy_txid">ID de Transaction copié !</string>
     <string name="message_nocopy">Copie désactivée par sécurité !</string>
 
-    <string name="message_exchange_failed">Taux de change introuvable !\nUtilisez Loki ou essayez à nouveau</string>
+    <string name="message_exchange_failed">Taux de change introuvable !\nUtilisez Sevabit ou essayez à nouveau</string>
 
     <string name="generate_title">Créer un Portefeuille</string>
     <string name="generate_name_hint">Nom du Portefeuille</string>
@@ -122,10 +122,10 @@
         <strong>Authentification par empreinte dgitale</strong>
         <p>En activant l\'authentification par empreinte digitale, vous pouvez voir le solde de
         votre portefeuille et recevoir des fonds sans entrer de mot de passe.</p>
-        <p>Mais pour plus de sécurité, Loki Wallet continuera de vous demander votre mot de passe
+        <p>Mais pour plus de sécurité, Sevabit Wallet continuera de vous demander votre mot de passe
         lorsque vous afficherez les détails du portefeuille ou enverez des fonds.</p>
         <strong>Avertissement de Sécurité</strong>
-        <p>Enfin, Loki Wallet vous rappel que quiconque pouvant obtenir votre empreinte digitale
+        <p>Enfin, Sevabit Wallet vous rappel que quiconque pouvant obtenir votre empreinte digitale
         sera capable de jeter un coup d\'œil au solde de votre portefeuille.</p>
         <p>Par exemple, un utilisateur malveillant à vos côtés pourrait ouvrir votre portefeuille
         pendant votre sommeil.</p>
@@ -170,13 +170,13 @@
     <string name="send_notes_hint">Notes Privées (optionnelles)</string>
     <string name="send_generate_paymentid_hint">Générer</string>
     <string name="send_qr_hint">Scanner</string>
-    <string name="send_send_label">Dépenser mes beaux Loki</string>
-    <string name="send_send_timed_label">Dépenser mes beaux Loki (%1$s)</string>
+    <string name="send_send_label">Dépenser mes beaux Sevabit</string>
+    <string name="send_send_timed_label">Dépenser mes beaux Sevabit (%1$s)</string>
     <string name="send_qr_invalid">QR Code invalide</string>
     <string name="send_qr_address_invalid">QR code de paiement invalide</string>
     <string name="send_address_invalid">Adresse invalide</string>
     <string name="send_title">Envoi</string>
-    <string name="send_available">Solde : %1$s LOKI</string>
+    <string name="send_available">Solde : %1$s SEVABIT</string>
     <string name="send_address_title">Adresse</string>
     <string name="send_amount_title">Montant</string>
     <string name="send_confirm_title">Confirmation</string>
@@ -186,7 +186,7 @@
     <string name="send_fee_label">Frais</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s Frais</string>
 
     <string name="send_create_tx_error_title">Erreur de Création de Transaction</string>
@@ -222,7 +222,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">LOKI pas un nombre</string>
+    <string name="receive_amount_nan">SEVABIT pas un nombre</string>
 
     <string name="details_alert_message">Des données sensible vont être affichées.\nRegardez autour de vous !</string>
     <string name="details_alert_yes">C\'est bon</string>

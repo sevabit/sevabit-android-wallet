@@ -35,7 +35,7 @@
     <string name="info_prepare_tx">Προετοιμασία της συναλλαγής σου</string>
 
  
-    <string name="label_send_progress_create_tx">Προετοιμασά συναλλαγής Loki</string>
+    <string name="label_send_progress_create_tx">Προετοιμασά συναλλαγής Sevabit</string>
 
     <string name="text_retry">Πάτησε για να προσπαθήσεις ξανά</string>
     <string name="text_noretry_monero">Τώρα έχουμε κολλήσει εδώ!</string>
@@ -85,9 +85,9 @@
     <string name="label_wallet_receive">Λήψη</string>
     <string name="label_wallet_send">Αποστολή</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI μη επιβεβαιωμένα</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT μη επιβεβαιωμένα</string>
 
-    <string name="service_description">Υπηρεσία Loki Wallet</string>
+    <string name="service_description">Υπηρεσία Sevabit Wallet</string>
 
     <string name="status_synced">Συγχρονισμένα:</string>
     <string name="status_remaining">Μπλοκς που απομένουν</string>
@@ -104,7 +104,7 @@
     <string name="message_copy_txid">Το ID συναλλαγής αντιγράφηκε στο πρόχειρο!</string>
     <string name="message_nocopy">Η αντιγραφή είναι απενεργοποιημένη για λόγους ασφαλείας!</string>
 
-    <string name="message_exchange_failed">Δεν είναι δυνατή η συναλλαγματική ισοτιμία! Χρησιμοποίησε Loki ή προσπάθησε ξανά</string>
+    <string name="message_exchange_failed">Δεν είναι δυνατή η συναλλαγματική ισοτιμία! Χρησιμοποίησε Sevabit ή προσπάθησε ξανά</string>
 
     <string name="generate_title">Δημιουργία Πορτοφολιού</string>
     <string name="generate_name_hint">Όνομα Πορτοφολιού</string>
@@ -144,13 +144,13 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Προσωπικές σημειώσεις (προαιρετικό)</string>
     <string name="send_generate_paymentid_hint">Δημιουργία</string>
-    <string name="send_send_label">Ξόδεψε τα γλυκά μου Loki</string>
-    <string name="send_send_timed_label">Ξόδεψε τα γλυκά μου Loki (%1$s)</string>
+    <string name="send_send_label">Ξόδεψε τα γλυκά μου Sevabit</string>
+    <string name="send_send_timed_label">Ξόδεψε τα γλυκά μου Sevabit (%1$s)</string>
     <string name="send_qr_invalid">Δεν είναι QR κώδικας</string>
     <string name="send_qr_address_invalid">Δεν είναι έγκυρος κωδικός QR πληρωμής</string>
     <string name="send_address_invalid">Δεν είναι έγκυρη η διεύθυνση</string>
     <string name="send_title">Αποστολή</string>
-    <string name="send_available">Υπόλοιπο: %1$s LOKI</string>
+    <string name="send_available">Υπόλοιπο: %1$s SEVABIT</string>
     <string name="send_address_title">Διεύθυνση</string>
     <string name="send_amount_title">Ποσό</string>
     <string name="send_confirm_title">Επιβεβαίωση</string>
@@ -160,7 +160,7 @@
     <string name="send_fee_label">Κόμιστρο</string>
     <string name="send_total_label">Σύνολο</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s Κόμιστρο</string>
 
     <string name="send_create_tx_error_title">Σφάλμα Δημιουργίας Συναλλαγής</string>
@@ -196,7 +196,7 @@
 
     <string name="receive_amount_too_big">Μέγιστο %1$s</string>
     <string name="receive_amount_negative">Ελάχιστο 0</string>
-    <string name="receive_amount_nan">LOKI δεν υπάρχει αριθμός</string>
+    <string name="receive_amount_nan">SEVABIT δεν υπάρχει αριθμός</string>
 
     <string name="details_alert_message">Θα εμφανιστούν τώρα ευαίσθητα δεδομένα. \nΠρόσεχε ποιος είναι πίσω σου!</string>
     <string name="details_alert_yes">Είμαι ασφαλής</string>
@@ -227,10 +227,10 @@
         <strong>Fingerprint Authentication</strong>
         <p>With fingerprint authentication enabled, you can view wallet balance and receive funds
         without entering password.</p>
-        <p>But for additional security, Loki Wallet will still require you to enter password when
+        <p>But for additional security, Sevabit Wallet will still require you to enter password when
         viewing wallet details or sending funds.</p>
         <strong>Security Warning</strong>
-        <p>Finally, Loki Wallet wants to remind you that anyone who can get your fingerprint will be
+        <p>Finally, Sevabit Wallet wants to remind you that anyone who can get your fingerprint will be
         able to peep into your wallet balance.</p>
         <p>For instance, a malicious user around you can open your wallet when you are asleep.</p>
         <strong>Are you sure to enable this function?</strong>

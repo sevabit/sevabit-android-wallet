@@ -36,7 +36,7 @@
     <string name="info_paymentid_intergrated">ID do pagamento integrado</string>
     <string name="info_prepare_tx">A preparar a transacção</string>
 
-    <string name="label_send_progress_create_tx">A preparar a transacção Loki</string>
+    <string name="label_send_progress_create_tx">A preparar a transacção Sevabit</string>
 
     <string name="label_send_settings_advanced">Avançado:</string>
 
@@ -91,9 +91,9 @@
     <string name="label_wallet_receive">Receber</string>
     <string name="label_wallet_send">Enviar</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI não confirmado</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT não confirmado</string>
 
-    <string name="service_description">Serviço Loki Wallet</string>
+    <string name="service_description">Serviço Sevabit Wallet</string>
 
     <string name="status_synced">Sincronizado:</string>
     <string name="status_remaining">Blocos remanescentes</string>
@@ -110,7 +110,7 @@
     <string name="message_copy_txid">ID da transacção copiado para a área de transferência!</string>
     <string name="message_nocopy">Copiar está desactivo por razões de segurança!</string>
 
-    <string name="message_exchange_failed">Não foi possível obter a taxa de conversão!\nUsa Loki ou tenta outra vez</string>
+    <string name="message_exchange_failed">Não foi possível obter a taxa de conversão!\nUsa Sevabit ou tenta outra vez</string>
 
     <string name="generate_title">Criar Carteira</string>
     <string name="generate_name_hint">Nome da Carteira</string>
@@ -120,10 +120,10 @@
         <strong>Autenticação por impressão digital</strong>
         <p> Com a autenticação através da impressão digital, podes ver o teu saldo e receber fundos
             sem introduzir a palavra passe.</p>
-        <p>Mas para segurança adicional, o Loki Wallet vai sempre pedir para introduzir a palavra passe
+        <p>Mas para segurança adicional, o Sevabit Wallet vai sempre pedir para introduzir a palavra passe
         para ver os detalhes da carteira ou enviar fundos.</p>
         <strong>Aviso de segurança</strong>
-        <p> Finalmente, o Loki Wallet quer relembrar que qualquer pessoa que consiga obter a tua
+        <p> Finalmente, o Sevabit Wallet quer relembrar que qualquer pessoa que consiga obter a tua
         impressão digital vai conseguir cuscar o teu saldo da carteira.</p>
         <p> Por exemplo, um utilizador malicioso pode abrir a tua carteira enquanto estiveres a dormir.</p>
         <strong>Tens a certeza que queres activar esta funcionalidade?</strong>
@@ -168,13 +168,13 @@
     <string name="send_notes_hint">Notas privadas (opcional)</string>
     <string name="send_generate_paymentid_hint">Gerar</string>
     <string name="send_qr_hint">Capturar</string>
-    <string name="send_send_label">Gasta os meus queridos Loki</string>
-    <string name="send_send_timed_label">Gasta os meus queridos Loki (%1$s)</string>
+    <string name="send_send_label">Gasta os meus queridos Sevabit</string>
+    <string name="send_send_timed_label">Gasta os meus queridos Sevabit (%1$s)</string>
     <string name="send_qr_invalid">Não é um código QR</string>
     <string name="send_qr_address_invalid">Não é um código QR válido</string>
     <string name="send_address_invalid">Não é um endereço válido</string>
     <string name="send_title">Enviar</string>
-    <string name="send_available">Saldo: %1$s LOKI</string>
+    <string name="send_available">Saldo: %1$s SEVABIT</string>
     <string name="send_address_title">Endereço</string>
     <string name="send_amount_title">Quantidade</string>
     <string name="send_confirm_title">Confirmar</string>
@@ -184,7 +184,7 @@
     <string name="send_fee_label">Taxa</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s Taxa</string>
 
     <string name="send_create_tx_error_title">Erro ao criar a transacção</string>
@@ -220,7 +220,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Mín. 0</string>
-    <string name="receive_amount_nan">LOKI não é um número</string>
+    <string name="receive_amount_nan">SEVABIT não é um número</string>
 
     <string name="details_alert_message">Dados sensíveis vão ser mostrados.\nOlha à tua volta!</string>
     <string name="details_alert_yes">Estou seguro</string>

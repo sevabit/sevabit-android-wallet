@@ -35,7 +35,7 @@
     <string name="info_paymentid_intergrated">Fizetési azonosító integrálva</string>
     <string name="info_prepare_tx">Tranzakció előkészítése</string>
 
-    <string name="label_send_progress_create_tx">Loki-tranzakció előkészítése</string>
+    <string name="label_send_progress_create_tx">Sevabit-tranzakció előkészítése</string>
 
     <string name="text_retry">Koppints az újrapróbálkozáshoz</string>
     <string name="text_noretry_monero">Itt most elakadtunk!</string>
@@ -93,9 +93,9 @@
     <string name="label_wallet_receive">Fogadás</string>
     <string name="label_wallet_send">Küldés</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s LOKI függőben</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SEVABIT függőben</string>
 
-    <string name="service_description">Loki Wallet szolgáltatás</string>
+    <string name="service_description">Sevabit Wallet szolgáltatás</string>
 
     <string name="status_synced">Szinkronizálva:</string>
     <string name="status_remaining">blokk van hátra</string>
@@ -112,7 +112,7 @@
     <string name="message_copy_txid">Tranzakcióazonosító vágólapra másolva!</string>
     <string name="message_nocopy">A másolás biztonsági okokból tiltásra került!</string>
 
-    <string name="message_exchange_failed">Nem sikerült az árfolyam lekérése!\nHasználj Loki-t vagy próbáld újra</string>
+    <string name="message_exchange_failed">Nem sikerült az árfolyam lekérése!\nHasználj Sevabit-t vagy próbáld újra</string>
 
     <string name="generate_title">Tárcalétrehozás</string>
     <string name="generate_name_hint">Tárca neve</string>
@@ -122,10 +122,10 @@
         <strong>Ujjlenyomat-azonosítás</strong>
         <p>Az ujjlenyomat-azonosítás engedélyezésével jelszó megadása nélkül tekintheted meg a
         tárcaegyenleget és fogadhatsz pénzösszegeket.</p>
-        <p>A további biztonság érdekében ugyanakkor a Loki Wallet továbbra is jelszót fog kérni a
+        <p>A további biztonság érdekében ugyanakkor a Sevabit Wallet továbbra is jelszót fog kérni a
         tárca részletes adatainak megtekintése és a pénzküldés esetén.</p>
         <strong>Biztonsági figyelmeztetés</strong>
-        <p>A Loki Wallet felhívja a figyelmed arra, hogy az ujjlenyomatoddal rendelkező személy(ek)
+        <p>A Sevabit Wallet felhívja a figyelmed arra, hogy az ujjlenyomatoddal rendelkező személy(ek)
         megtekinthetik a tárcaegyenleged.</p>
         <p>Egy rosszhiszemű személy például megnyithatja a tárcádat míg te alszol.</p>
         <strong>Biztosan engedélyezni szeretnéd ezt a funckiót?</strong>
@@ -168,13 +168,13 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Privát közlemény (opcionális)</string>
     <string name="send_generate_paymentid_hint">Generálás</string>
-    <string name="send_send_label">Édes, drága Loki elköltése</string>
-    <string name="send_send_timed_label">Édes, drága Loki elköltése (%1$s)</string>
+    <string name="send_send_label">Édes, drága Sevabit elköltése</string>
+    <string name="send_send_timed_label">Édes, drága Sevabit elköltése (%1$s)</string>
     <string name="send_qr_invalid">Ez nem egy QR-kód</string>
     <string name="send_address_invalid">Érvénytelen cím</string>
     <string name="send_qr_address_invalid">Érvénytelen QR-kód</string>
     <string name="send_title">Küldés</string>
-    <string name="send_available">Egyenleg: %1$s LOKI</string>
+    <string name="send_available">Egyenleg: %1$s SEVABIT</string>
     <string name="send_address_title">Cím</string>
     <string name="send_amount_title">Mennyiség</string>
     <string name="send_confirm_title">Megerősítés</string>
@@ -184,7 +184,7 @@
     <string name="send_fee_label">Díj</string>
     <string name="send_total_label">Összesen</string>
 
-    <string name="send_amount">%1$s LOKI</string>
+    <string name="send_amount">%1$s SEVABIT</string>
     <string name="send_fee">+%1$s díj</string>
 
     <string name="send_create_tx_error_title">Tranzakciólétrehozási hiba</string>
@@ -220,7 +220,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">LOKI nem egy szám</string>
+    <string name="receive_amount_nan">SEVABIT nem egy szám</string>
 
     <string name="details_alert_message">Bizalmas adatok kerülnek megjelenítésre.\nBizonyosodj meg róla, hogy más nem látja!</string>
     <string name="details_alert_yes">Mehet</string>

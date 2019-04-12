@@ -78,11 +78,11 @@ public class Helper {
             (BuildConfig.FLAVOR.startsWith("prod") ? "" : "." + BuildConfig.FLAVOR)
                     + (BuildConfig.DEBUG ? "-debug" : "");
 
-    static public final String CRYPTO = "LOKI";
+    static public final String CRYPTO = "SEVABIT";
     static public final String NOCRAZYPASS_FLAGFILE = ".nocrazypass";
 
-    static private final String WALLET_DIR = "loki-wallet" + FLAVOR_SUFFIX;
-    static private final String HOME_DIR = "loki" + FLAVOR_SUFFIX;
+    static private final String WALLET_DIR = "sevabit-wallet" + FLAVOR_SUFFIX;
+    static private final String HOME_DIR = "sevabit" + FLAVOR_SUFFIX;
 
     static public int DISPLAY_DIGITS_INFO = 9;
 
@@ -207,16 +207,16 @@ public class Helper {
     }
 
     static public String getFormattedAmount(double amount, boolean isXmr) {
-        // at this point selection is LOKI in case of error
+        // at this point selection is SEVABIT in case of error
         String displayB;
-        if (isXmr) { // LOKI
+        if (isXmr) { // SEVABIT
             long xmr = Wallet.getAmountFromDouble(amount);
             if ((xmr > 0) || (amount == 0)) {
                 displayB = String.format(Locale.US, "%,.5f", amount);
             } else {
                 displayB = null;
             }
-        } else { // not LOKI
+        } else { // not SEVABIT
             displayB = String.format(Locale.US, "%,.2f", amount);
         }
         return displayB;
@@ -331,7 +331,7 @@ public class Helper {
     // TODO make the log levels refer to the  WalletManagerFactory::LogLevel enum ?
     static public void initLogger(Context context, int level) {
         String home = getStorage(context, HOME_DIR).getAbsolutePath();
-        WalletManager.initLogger(home + "/loki-wallet", "loki-wallet.log");
+        WalletManager.initLogger(home + "/sevabit-wallet", "sevabit-wallet.log");
         if (level >= WalletManager.LOGLEVEL_SILENT)
             WalletManager.setLogLevel(level);
     }
