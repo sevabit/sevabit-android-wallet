@@ -1,6 +1,6 @@
 # Building external libs in Docker
 
-Builds Sevabit libs for all Android architectures from `https://github.com/crtlib/sevabit.git`, `sevabit_wallet` branch.
+Builds Sevabit libs for all Android architectures from `https://github.com/sevabit/sevabit.git`, `android_wallet` branch.
 Build image from `external-libs/docker` directory:
 
 ```Shell

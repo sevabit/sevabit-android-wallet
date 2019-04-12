@@ -2,7 +2,7 @@
 Android Wallet for Sevabit
 
 ### QUICKSTART
-- Download the APK for the most current release [here](https://github.com/sevabit-project/sevabit-android-wallet/releases) and install it
+- Download the APK for the most current release [here](https://github.com/sevabit/sevabit-android-wallet/releases) and install it
 - Run the App and select "Generate Wallet" to create a new wallet or recover a wallet
 - Advanced users can copy over synced wallet files (all files) onto sdcard in directory sevabit-wallet (created first time App is started)
 - See the [FAQ](doc/FAQ.md)
